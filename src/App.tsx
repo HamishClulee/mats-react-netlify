@@ -1,12 +1,13 @@
-function App() {
+import { InitialSection } from "./components/sections/initial.section.tsx";
+import { CvSection } from "./components/sections/cv.section.tsx";
 
+function App() {
   return (
-    <>
-      <div className="text-4xl w-screen text-center my-64">
-          Init
-      </div>
-    </>
-  )
+    <main>
+      <InitialSection />
+      <CvSection />
+    </main>
+  );
 }
 
-export default App
+export default App;
