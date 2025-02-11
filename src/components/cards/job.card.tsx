@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { SlideUp } from "../sections/slide-up.section.tsx";
+import { TechIndicator } from "../util/tech-indicator.component.tsx";
 
 type Props = {
   employer: string;
@@ -8,6 +9,7 @@ type Props = {
   references?: boolean;
   wasRemote?: boolean;
   children?: ReactNode;
+  tech: { name: string; value: number }[];
 };
 
 export const JobCard = ({
@@ -17,6 +19,7 @@ export const JobCard = ({
   references = false,
   wasRemote = true,
   children,
+  tech,
 }: Props) => {
   return (
     <section className="my-16">
@@ -31,6 +34,7 @@ export const JobCard = ({
         {references && (
           <h6 className="italic mb-4 mt-1">References available</h6>
         )}
+        <TechIndicator tech={tech} />
         {children}
         {wasRemote && (
           <span className="w-full align-center -mx-1 my-2 italic text-md text-gray-400">
