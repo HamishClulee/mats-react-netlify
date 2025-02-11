@@ -1,7 +1,7 @@
 export const InitialSection = () => {
   return (
     <div
-      className="w-screen min-h-screen flex-col items-stretch"
+      className="w-full min-h-screen flex-col items-stretch justify-center"
       style={{ background: "#f0db4f" }}
     >
       <div className="absolute right-10 -bottom-30 flex items-end">
