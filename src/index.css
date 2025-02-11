@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    font-family: "Josefin Sans", serif;
+    font-weight: 400;
+}
+
+.cv-paragraph {
+    @apply my-2;
+}
+
 .josefin-sans {
     font-family: "Josefin Sans", serif;
     font-optical-sizing: auto;
@@ -9,7 +18,7 @@
     font-style: normal;
     letter-spacing: -25px;
     transform: scaleY(1.20);
-    font-size: 560px;
+    font-size: 360px;
     font-stretch: condensed;
 }
 
@@ -75,10 +84,19 @@
     border-radius: 10px;
 }
 
+.animate-slide-up {
+    animation: slide-up 2s;
+}
+
+.divider {
+    transform: scaleX(1.4) rotate(5deg);
+    color: #ff5722;
+}
+
 @keyframes slide-up {
     from {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateY(40px);
     }
     to {
         opacity: 1;
