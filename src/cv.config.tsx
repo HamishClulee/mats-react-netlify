@@ -17,12 +17,12 @@ type LanguageExperience = {
 };
 
 export const LANGUAGES: LanguageExperience[] = [
-  { label: "ReactJs", years: "5+ years" },
+  { label: "ReactJs", years: "8+ years" },
   { label: "VueJs", years: "6+ years" },
-  { label: "Javascript", years: "10+ years" },
+  { label: "Javascript", years: "12+ years" },
   { label: "Java", years: "6+ years" },
-  { label: "SASS/SCSS/CSS", years: "6+ years" },
-  { label: "NodeJs", years: "8+ years" },
+  { label: "SASS/SCSS/CSS", years: "10+ years" },
+  { label: "NodeJs", years: "10+ years" },
 ];
 
 type SkillExperience = {
@@ -32,8 +32,8 @@ type SkillExperience = {
 
 export const SKILLS: SkillExperience[] = [
   { label: "Mentoring", years: "7+ years" },
-  { label: "Coaching", years: "4+ years" },
-  { label: "Team Leadership", years: "6+ years" },
+  { label: "Coaching", years: "6+ years" },
+  { label: "Team Leadership", years: "8+ years" },
   { label: "UI/UX Design", years: "6+ years" },
   { label: "Working Remote", years: "8+ years" },
   { label: "Linux", years: "10+ years" },
@@ -42,34 +42,35 @@ export const SKILLS: SkillExperience[] = [
 export const JOBS: Job[] = [
   {
     employer: "Betfair Au",
-    title: "Engineering Consultant",
-    dates: "March 2021 - Current (~32 months)",
+    title: "Lead Engineer",
+    dates: "March 2022 - Feb 2025 (~3 years)",
     wasRemote: true,
     references: true,
     tech: TECH_CONFIG.betfair,
     description: (
       <>
+        <ul className="cv-paragraph list-disc list-inside">
+          <li>
+            Implemented registrations through a strict regulatory framework
+            (NextJs, AWS)
+          </li>
+          <li>Implemented Customer Preferences (NextJs, AWS)</li>
+          <li>Implemented customer and Affiliate Watchlists (NextJs, AWS)</li>
+          <li>
+            Implemented a Preact application within Google Tag Manager with
+            CI/CD through AWS
+          </li>
+          <li>
+            Implemented a large system of client-side event tracking across web
+            and mobile
+          </li>
+          <li>Team sizes: 3-5 engineers</li>
+        </ul>
         <p className="cv-paragraph">
-          Betfair Australia is a high-revenue peer-to-peer sports and racing
-          betting platform.
+          The impact of my contributions continues to drive innovation, and the
+          changes implemented have had a lasting effect on Betfair's technology
+          landscape, customer engagement, and revenue expansion.
         </p>
-        <p className="cv-paragraph">
-          I was initially contracted to implement the technical aspects of a
-          complete marketing tech overhaul. After completion, my daily routine
-          evolved to be more consultancy and architecture-focused. I still cut
-          code, but also moved into handling tech strategy and product design
-          responsibilities. The change also brought developer mentoring into the
-          course of a normal week.
-        </p>
-        <p className="cv-paragraph">
-          By the end of the ~32 months, I'm happy to have claimed significant
-          ownership over a transformed tech landscape and large changes in
-          long-term strategy. I'm sure that when I'm next in Melbourne and we
-          end up having a few beers, I'll get to hear about how the changes we
-          made have grown into even larger increases in revenue and customer
-          engagement.
-        </p>
-        <p className="cv-paragraph">Overall, an incredible experience.</p>
       </>
     ),
   },
@@ -82,7 +83,16 @@ export const JOBS: Job[] = [
     description: (
       <>
         <div className="cv-paragraph">
-          <h5 className="contractor-main-heading">Watercare NZ (9 months).</h5>
+          <h5 className="contractor-main-heading">Paloma Venture Studio</h5>
+          <p>
+            6 month contract building the MVP for Fluenccy a currency hedging
+            and trading start up. Weekly interactions with founders, heavy usage
+            and development of d3.js and charting libraries to build some really
+            incredible UI.
+          </p>
+        </div>
+        <div className="cv-paragraph">
+          <h5 className="contractor-main-heading">Watercare NZ</h5>
           <p>
             A leadership, mentoring, and engineering role. Bringing an outdated
             and somewhat dysfunctional code base into line with industry best
@@ -91,7 +101,7 @@ export const JOBS: Job[] = [
           </p>
         </div>
         <div className="cv-paragraph">
-          <h5 className="contractor-main-heading">Zer0 (3 months).</h5>
+          <h5 className="contractor-main-heading">Zer0</h5>
           <p>
             Short run contract for a US-based Blockchain startup. I shipped a
             reasonably large-scale UI prototype to spec while maintaining
@@ -99,9 +109,7 @@ export const JOBS: Job[] = [
           </p>
         </div>
         <div className="cv-paragraph">
-          <h5 className="contractor-main-heading">
-            Streem Media Australia (3 months).
-          </h5>
+          <h5 className="contractor-main-heading">Streem Media Australia</h5>
           <p>
             Short run contract working with Vue and Ruby on Rails. Shipped a
             full overhaul of a legacy PDF reporting platform.
@@ -114,52 +122,76 @@ export const JOBS: Job[] = [
     ),
   },
   {
-    employer: "Dovetail Studios",
-    title: "Senior Javascript Developer",
-    dates: "January 2021 - June 2021 (6 month contract)",
-    wasRemote: true,
-    references: true,
-    tech: TECH_CONFIG.dovetail,
-    description: (
-      <>
-        <p className="cv-paragraph">
-          Dovetail leads product development for rapidly growing companies
-          worldwide, offering digital and growth strategy, design, and
-          development services across private and public sectors.
-        </p>
-        <p className="cv-paragraph">
-          I worked as a Senior JavaScript Developer for Fluenccy, a new currency
-          hedging and business intelligence (BI) platform. My responsibilities
-          were divided between front-end and back-end development.
-        </p>
-        <p className="cv-paragraph">
-          Dovetail was an incredible place to work, and we both hope to do it
-          again sometime.
-        </p>
-      </>
-    ),
-  },
-  {
-    employer: "AduroLabs Vietnam",
+    employer: "AduroLabs Vietnam (Microsoft International Usage)",
     title: "Frontend Tech Lead",
-    dates: "January 2020 - January 2021 (1 year)",
+    dates: "December 2019 - January 2021 (~1 year)",
     references: true,
     tech: TECH_CONFIG.aduro,
     description: (
       <>
         <p className="cv-paragraph">
-          AduroLabs is a Health and Wellness service provider.
+          Led a ~20-engineer team for Aduro, a US-based health and wellness
+          platform located in Vietnam.
         </p>
+        <ul className="cv-paragraph list-disc list-inside">
+          <li>
+            Rebuilt the code pipelines and developer experience across the
+            landscape (Webpack, Azure).
+          </li>
+          <li>Led training and developer skill updates across the team.</li>
+          <li>
+            Reduced the percentage of developer hours spent on bugs vs. features
+            from 60% down to 15%.
+          </li>
+          <li>
+            Collaborated cross-functionally with engineering, product, and
+            leadership teams to align technical vision with business goals.
+          </li>
+          <li>
+            Managed hiring and interviewing for 5 new developers across a year.
+          </li>
+        </ul>
         <p className="cv-paragraph">
-          I was primarily tasked with leadership and mentoring for the frontend
-          teams. Daily responsibilities included code reviews, coaching, writing
-          technical documentation, making architecture decisions, and managing
-          sprints and tickets.
+          This role reinforced my ability to lead an engineering team and manage
+          the social and business side of tech leadership.
         </p>
+      </>
+    ),
+  },
+  {
+    employer: "Netograph (MIT backed startup)",
+    title: "Frontend Tech Lead",
+    dates: "July 2018 - December 2019 (1 year)",
+    references: true,
+    tech: TECH_CONFIG.netograph,
+    description: (
+      <>
         <p className="cv-paragraph">
-          Higher-level responsibilities included interviewing potential hires,
-          technical product management, building better agile processes, and
-          interfacing with other teams and departments within the company.
+          Architected and developed a high-performance front-end application
+          heavily reliant on D3.js designed to handle millions of data points.
+        </p>
+        <ul className="cv-paragraph list-disc list-inside">
+          <li>
+            Built and designed a component-driven front-end architecture using
+            Vue.js, TypeScript, and Webpack.
+          </li>
+          <li>
+            Designed and implemented highly interactive UI components, adhering
+            to I18N and accessibility standards.
+          </li>
+          <li>
+            Implemented a portable OSS Authorization library for Vue.js and
+            Golang, including OAuth from major socials.
+          </li>
+          <li>
+            Implemented a custom infinite scroll library in Vue, using Google
+            Big Table resume tokens.
+          </li>
+          <li>Implemented some incredible D3.js visuals.</li>
+        </ul>
+        <p className="cv-paragraph">
+          This experience strengthened my expertise in scalable front-end
+          architecture, performance optimization, and engineering leadership.
         </p>
       </>
     ),
@@ -174,12 +206,13 @@ export const JOBS: Job[] = [
     description: (
       <>
         <p className="cv-paragraph">
-          Fusion is a sports science company, based in Brisbane, Australia. They
-          sell hardware products and provide a web app, all designed to provide
-          athletes and sports teams with competitive advantages.
+          Fusion is a sports science company based in Brisbane, Australia,
+          providing hardware products and a web app designed to give athletes
+          and sports teams a competitive edge.
         </p>
         <p className="cv-paragraph">
-          The Fusion Sport Client list is impressive, you can check it out{" "}
+          The Fusion Sport client list includes internationally recognized
+          sports teams. You can check it out{" "}
           <a
             href="https://www.fusionsport.com/clients/"
             target="_blank"
@@ -187,22 +220,24 @@ export const JOBS: Job[] = [
           >
             here
           </a>
-          , working directly for internationally recognizable sports teams was a
-          real buzz.
+          . Working directly with elite sports teams was an exciting experience.
         </p>
+        <ul className="cv-paragraph list-disc list-inside">
+          <li>
+            Led the development of the Dashboard Builder project, enabling
+            non-technical users to create dashboards without developer
+            involvement. Identified key customer needs, prototyped the solution,
+            and secured management approval for full implementation.
+          </li>
+          <li>
+            Rebuilt frontend tooling, replacing Gulp and jQuery with a custom
+            Webpack and Vue.js boilerplate, significantly improving developer
+            efficiency and reducing lead time.
+          </li>
+        </ul>
         <p className="cv-paragraph">
-          Noteworthy achievement: Being granted leadership of the Dashboard
-          Builder project. After identifying the most commonly requested items
-          in customer dashboards with the team, I prototyped an application that
-          enabled creation of dashboards without developer involvement. It was
-          approved for resourcing by management, and the Dashboard Builder was
-          born.
-        </p>
-        <p className="cv-paragraph">
-          Noteworthy achievement: Rebuilding the tooling used by the Frontend
-          team, replacing Gulp and JQuery with a custom Webpack and{" "}
-          <em>VueJs</em> boilerplate. The new boilerplate reduced lead time by a
-          significant amount and is still in use today.
+          This role strengthened my ability to drive technical improvements,
+          optimize developer workflows, and build scalable frontend systems.
         </p>
       </>
     ),

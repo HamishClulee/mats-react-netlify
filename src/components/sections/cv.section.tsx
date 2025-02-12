@@ -30,22 +30,23 @@ export const CvSection = ({}: Props) => {
 
       <SlideUp>
         <p className="cv-paragraph text-lg">
-          I'm happy to wear any of these three hats: an engineer, a tech lead,
-          or a consultant/architect. No matter which hat I'm wearing, I'm
-          committed to simplicity, ease of maintenance and smooth delivery.
+          Lead Software Engineer with extensive expertise managing the people
+          side of products.
         </p>
         <p className="cv-paragraph text-lg">
-          When consulting, I favor robust and simple solutions that will stick
-          around for the long haul, expecting the things we build together to
-          last long after I'm gone. As a leader, I believe that positive
-          attitudes are key to building great teams. In an engineering role, I
-          credit myself with being self-sufficient, always shipping, and fun to
-          work with.
+          Over 10 years of JavaScript and TypeScript experience across a wide
+          range of frameworks, with a strong focus on NextJs, React, and Vue. I
+          have built and contributed to numerous full-stack JavaScript
+          applications.
+        </p>
+        <p className="cv-paragraph text-lg">
+          I believe that successful software projects are driven more by people,
+          relationships, and communication than by functions and variables.
         </p>
         <p className="cv-paragraph text-lg">
           Above all - I'm passionate about teams that{" "}
-          <span style={{ fontSize: "24px" }}>&#128640;</span> great code daily
-          while never losing sight of the longer-term destinations.
+          <span style={{ fontSize: "24px" }}>&#128640;</span> great code. Send
+          it.
         </p>
         <Divider />
       </SlideUp>
