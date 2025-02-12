@@ -15,7 +15,6 @@ declare module "*.md" {
   import React from "react";
   const ReactComponent: React.VFC;
 
-  // When "Mode.Vue" is requested
   import { ComponentOptions, Component } from "vue";
   const VueComponent: ComponentOptions;
   const VueComponentWith: (
