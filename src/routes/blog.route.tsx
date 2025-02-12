@@ -10,7 +10,7 @@ export const Blog = () => {
   }, []);
   return (
     <>
-      <main className="min-h-screen w-full flex flex-col max-w-screen-lg mx-auto mt-64">
+      <main className="min-h-screen w-full flex flex-col max-w-screen-lg mx-auto mt-32">
         {POSTS.map(({ title, date, brief, linkTo }, index) => (
           <BlogLink
             key={index}
