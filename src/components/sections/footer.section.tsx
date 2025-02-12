@@ -3,7 +3,7 @@ import { GithubIcon } from "../svgs/github.icon.tsx";
 
 export const Footer = () => {
   return (
-    <section className="bg-[#3c3a3a] h-[300px] flex flex-col items-center justify-center">
+    <footer className="bg-[#3c3a3a] h-[300px] flex flex-col items-center justify-center">
       <div className="flex flex-row items-center justify-center space-x-4">
         <button
           className="cursor-pointer"
@@ -22,6 +22,6 @@ export const Footer = () => {
           <GithubIcon />
         </button>
       </div>
-    </section>
+    </footer>
   );
 };
