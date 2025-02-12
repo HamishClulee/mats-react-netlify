@@ -13,6 +13,24 @@ html, body {
     @apply my-2;
 }
 
+pre {
+    font-family: "Lucida Console", Monaco, monospace;
+    line-height: 1.7;
+    border-radius: 5px;
+    display: block;
+    overflow-x: auto;
+    background: #161b1d;
+    color: #7ea2b4;
+    padding: 0.5em;
+}
+
+code {
+    font-size: 1.1rem;
+    font-family: "Lucida Console", Monaco, monospace;
+    max-width: 100%;
+    overflow-x: scroll !important;
+}
+
 .list-con {
     margin: 70px auto;
     min-width: 300px;
@@ -41,6 +59,7 @@ html, body {
     margin-right: auto;
     margin-bottom: 12px;
 }
+
 .contractor-main-heading {
     color: #03A9F4;
     margin-bottom: 5px;
@@ -49,7 +68,7 @@ html, body {
 
 .post-wrapper p {
     padding-bottom: 10px;
-    color: #adadad;
+    color: #333131;
 }
 
 .post-wrapper p > code {
@@ -64,6 +83,7 @@ html, body {
 }
 
 .post-wrapper h2 {
+    @apply text-blue-800;
     font-size: 1.5rem;
     padding-bottom: 12px;
     margin-bottom: 0;
@@ -72,6 +92,7 @@ html, body {
 }
 
 .post-wrapper h3 {
+    @apply text-blue-800;
     font-size: 1.2rem;
     padding-bottom: 12px;
     margin-bottom: 5px;
@@ -80,12 +101,14 @@ html, body {
 }
 
 .post-wrapper h4, h5 {
+    @apply text-blue-800;
     font-size: 1.2rem;
     padding-bottom: 12px;
     margin-top: 10px;
 }
 
 .post-wrapper h6 {
+    @apply text-blue-800;
     font-size: 1rem;
     margin-bottom: 10px;
     padding-bottom: 12px;
