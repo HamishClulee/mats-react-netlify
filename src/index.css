@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "prismjs/themes/prism-tomorrow.css";
+
 @tailwind components;
 @tailwind utilities;
 
@@ -9,6 +11,17 @@ html, body {
 
 .cv-paragraph {
     @apply my-2;
+}
+
+.list-con {
+    margin: 70px auto;
+    min-width: 300px;
+    width: 95%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .josefin-sans {

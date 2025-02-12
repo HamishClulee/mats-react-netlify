@@ -2,7 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "./routes/home.route.tsx";
 import { Cv } from "./routes/cv.route.tsx";
 import { Blog } from "./routes/blog.route.tsx";
+
 import { NotFound } from "./routes/not-found.route.tsx";
+import { PostWrapper } from "./components/blog/post-wrapper.component.tsx";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/cv" element={<Cv />} />
       <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/:urlName" element={<PostWrapper />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
