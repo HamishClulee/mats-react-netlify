@@ -1,6 +1,8 @@
+import { FILL_GRAY } from "./colors.ts";
+
 export const CvIcon = () => (
   <svg
-    fill="#000000"
+    fill={FILL_GRAY}
     version="1.1"
     id="Capa_1"
     height={24}

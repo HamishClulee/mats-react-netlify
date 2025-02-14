@@ -1,3 +1,5 @@
+import { FILL_GRAY } from "./colors.ts";
+
 export const BlogIcon = () => (
   <svg
     version="1.1"
@@ -6,7 +8,7 @@ export const BlogIcon = () => (
     width="24"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
-    fill="#000000"
+    fill={FILL_GRAY}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
