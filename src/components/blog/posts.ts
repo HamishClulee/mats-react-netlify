@@ -15,7 +15,8 @@ export const POSTS = [
     },
     title: "The Developer Cost Fallacy",
     date: "11 May 2024",
-    brief: "Why quality work could actually be cheaper to produce.",
+    brief:
+      "Why cost expectations for quality work could actually be over inflated.",
   },
   {
     linkTo: {

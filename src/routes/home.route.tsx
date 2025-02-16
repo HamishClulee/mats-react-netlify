@@ -12,11 +12,13 @@ export const Home = () => {
         className="w-full min-h-screen flex-col justify-end items-end"
         style={{ background: "#f0db4f" }}
       >
-        <div className="absolute right-10 -bottom-30 flex items-end">
-          <h1 className="text-[#3c3a3a] josefin-sans">HC</h1>
+        <div className="absolute right-10 -bottom-10 md:-bottom-30 flex items-end">
+          <h1 className="text-[#3c3a3a] josefin-sans text-[140px] md:text-[360px]">
+            HC
+          </h1>
         </div>
       </main>
-      <div className="w-full flex flex-row items-center justify-center space-x-8 my-32">
+      <div className="w-full flex flex-col md:flex-row items-center justify-center space-x-8 my-32">
         <div className="space-y-6 text-lg ml-12 mr-6">
           <p>
             I'm the type of engineer you love. I ship a lot of code, I do it
@@ -54,12 +56,14 @@ export const Home = () => {
           </p>
           <p>Looking forward to hearing from you!</p>
         </div>
-        <h3 className="cursor-pointer text-4xl font-bold underline">
-          <Link to={"/blog"}>Blog</Link>
-        </h3>
-        <h3 className="cursor-pointer text-4xl font-bold underline mr-6">
-          <Link to={"/cv"}>CV</Link>
-        </h3>
+        <div className="flex flex-row space-x-4 mt-8 md:mt-0">
+          <h3 className="cursor-pointer text-4xl font-bold underline">
+            <Link to={"/blog"}>Blog</Link>
+          </h3>
+          <h3 className="cursor-pointer text-4xl font-bold underline mr-6">
+            <Link to={"/cv"}>CV</Link>
+          </h3>
+        </div>
       </div>
       <Footer />
     </>
