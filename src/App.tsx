@@ -5,6 +5,7 @@ import { Blog } from "./routes/blog.route.tsx";
 import { NotFound } from "./routes/not-found.route.tsx";
 import { PostWrapper } from "./components/blog/post-wrapper.component.tsx";
 import { PageNav } from "./components/layout/page-nav.component.tsx";
+import { ScratchPad } from "./routes/scratch-pad.route.tsx";
 
 function App() {
   const location = useLocation(); // Get the current route
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cv" element={<Cv />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:urlName" element={<PostWrapper />} />
+        <Route path="/oh-hi-bumble-buddy" element={<ScratchPad />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
